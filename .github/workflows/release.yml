@@ -4,7 +4,7 @@ on:
       - "*"
 name: Create Release / Publish Package
 jobs:
-  pack-solution:
+  ci-cd:
     name: Pack solution
     permissions:
       contents: write
