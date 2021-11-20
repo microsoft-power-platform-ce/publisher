@@ -1,8 +1,7 @@
 {
   "name": "@microsoft-power-platform-ce/publisher",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Empty unmanaged solution with the Power Platform CE publisher",
   "author": "Melody Universe",
   "license": "ISC",
   "files": [
