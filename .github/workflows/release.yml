@@ -7,9 +7,8 @@ jobs:
   pack-solution:
     name: Pack solution
     permissions:
-      contents: read
+      contents: write
       packages: write
-      releases: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
