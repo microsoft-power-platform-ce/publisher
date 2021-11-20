@@ -22,3 +22,5 @@ jobs:
         uses: softprops/action-gh-release@v1
       - name: Publish package
         run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
