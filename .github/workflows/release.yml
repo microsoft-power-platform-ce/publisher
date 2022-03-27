@@ -15,6 +15,8 @@ jobs:
       - id: pack-solution
         name: Pack solution
         uses: microsoft-power-platform-ce/actions/pack-solution@main
+        with:
+          solution-type: Unmanaged
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
